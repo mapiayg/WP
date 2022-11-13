@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Solution to exercise 5">
+        <meta name="keywords" content="CAT01, JavaScript">
+        <meta name="author" content="mapiayg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Programming - CAT01 solution</title> 
+        <link rel="stylesheet" href="style.css">
+        <script type= "text/javascript" src = 'cat01.js'></script>   
+    </head> 
+    <body>
+        <p>
+            <span class="mark1">&nbsp; Student: &nbsp;</span> 
+            <span class="mark2">&nbsp;Miguel Ángel Piay García &nbsp;</span>
+            <span class="mark3">(mapiayg)</span>
+        </p>
+        <h1>CAT01</h1>
+        <h2>Exercise 5</h2>
+        <p>Please open the console (and reload) to check the output 
+            formatted as in the statement (input: 
+            'JavaScript is an awesome language.').
+        </p>
+        <p>You can also enter below a different input and click on the button to
+            see the output.
+        </p>
+        <div>
+            <input type="text" id="sentence" size=50 value="JavaScript is an awesome language.">
+            <button onclick='ex5(document.getElementById("sentence").value)'>Call function</button>
+        </div>
+        <p>The unformatted output is also shown below.</p>
+        <div id="console_ex5" class="console"></div>
+        <script>
+            ex5(document.getElementById("sentence").value);
+        </script>
+</body>
+</html>

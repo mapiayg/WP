@@ -1,0 +1,21 @@
+.mark1 {
+    background-color: black;
+    color: white;
+}
+
+.mark2 {
+    background-color: yellow;
+}
+
+.mark3 {
+    color: grey;
+}
+
+.console {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    margin: 1em,0px,1em,0px;
+}
