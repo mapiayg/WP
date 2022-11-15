@@ -18,7 +18,7 @@ function ex5(sentence) {
             // compare all chars after the new one
             // and update occurrence
             for (let j = i + 1; j < sentence.length; j++) {
-                char2 = sentence.substr(j, 1).toLowerCase();
+                char2 = sentence.substr(j, 1);
                 if (char2 === char1) {
                     count ++;
                 }
